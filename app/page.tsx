@@ -6,6 +6,9 @@ export default function Page() {
     <main className="main text-light">
       <div className="container">
         <h1>BlueSky Custom Domain Helper</h1>
+        <div className="alert alert-danger my-2">
+           Version 1.6 of the official client supports assigning Custom Domains, so there is no need to use this tool
+        </div>
         <Form />
         <Warning />
         Made by{" "}
